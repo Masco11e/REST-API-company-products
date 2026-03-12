@@ -6,7 +6,11 @@ The software does not include a frontend interface.
 
 Additionally, a Python script for generating product data has been included in the project. There is no need to run it, as the products data is already included in the project. Company data was generated using the online tool [Mockaroo](https://www.mockaroo.com/).
 
-The software can be run in any IDE, IntelliJ IDEA is recommended. The database is created and configured when the application is launched and does not require user intervention.
+It is recommended to start the application using the restapi-0.0.1-SNAPSHOT file.
+
+Additionally/optionally software can be run in any IDE supporting java, IntelliJ IDEA is recommended. 
+
+The database is created and configured when the application is launched and does not require user intervention.
 
 API queries can be performed in any way, it is recommended to use the CMD console.
 
@@ -14,9 +18,19 @@ API queries can be performed in any way, it is recommended to use the CMD consol
 
 ## 🛠️
 
-To start the program, open and run the RestapiApplication.java
+To run the program using the restapi-0.0.1-SNAPSHOT file, you need to:
 
-For Windows, you must allow the program to ignore Windows Defender.
+- Open a terminal in the folder where the file is located.
+- Use the following command: java -jar restapi-0.0.1-SNAPSHOT.jar
+
+<div style="display: flex;">
+  <img src="proof" width="300" height="300"/>
+</div>
+
+At this point, the REST API should start working.
+
+For an additional option to open the file using the IDE, open and run the RestapiApplication.java. For Windows, you must allow the program to ignore Windows Defender.
+
 
 The application runs on port 8080 by default; make sure that it is not occupied by another application. 
 To log in to the H2 console, go to: [http://localhost:8080/h2-console](http://localhost:8080/h2-console).
