@@ -1,0 +1,26 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_company
+      author: admin
+      changes:
+        - createTable:
+            tableName: company
+            columns:
+              - column:
+                  name: id
+                  type: INT
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: company_name
+                  type: VARCHAR(255)
+                  constraints:
+                    nullable: false
+
+        - loadData:
+            tableName: company
+            file: data/MOCK_DATA.csv
+            separator: ","
+            encoding: UTF-8

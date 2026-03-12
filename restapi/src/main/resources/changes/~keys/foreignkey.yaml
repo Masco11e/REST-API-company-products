@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: add-producent-foreign-key
+      author: admin
+
+      changes:
+        - addForeignKeyConstraint:
+            baseTableName: products
+            baseColumnNames: company_id
+            referencedTableName: company
+            referencedColumnNames: id
+            constraintName: company_fk

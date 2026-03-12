@@ -1,0 +1,36 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_products
+      author: admin
+      changes:
+        - createTable:
+            tableName: products
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+
+              - column:
+                  name: company_id
+                  type: int
+                  constraints:
+                    nullable: false
+
+              - column:
+                  name: name
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+
+              - column:
+                  name: specification
+                  type: clob
+                  constraints:
+                    nullable: true
+
+        - loadData:
+            tableName: products
+            file: data/products.csv
