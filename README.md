@@ -24,7 +24,7 @@ To run the program using the restapi-0.0.1-SNAPSHOT file, you need to:
 - Use the following command: java -jar restapi-0.0.1-SNAPSHOT.jar
 
 <div style="display: flex;">
-  <img src="public/proof" width="300" height="300"/>
+  <img src="public/proof.jpg" width="300" height="300"/>
 </div>
 
 At this point, the REST API should start working.
