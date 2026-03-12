@@ -34,6 +34,7 @@ For an additional option to open the file using the IDE, open and run the Restap
 
 The application runs on port 8080 by default; make sure that it is not occupied by another application. 
 To log in to the H2 console, go to: [http://localhost:8080/h2-console](http://localhost:8080/h2-console).
+Change the value in the "JDBC URL:" field to "jdbc:h2:mem:testdb."
 Login: admin
 Password: 123
 
