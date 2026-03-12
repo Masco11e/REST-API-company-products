@@ -14,6 +14,7 @@ public class Product {
     @Column(name="company_id")
     private int companyId;
     private String name;
+    private String specification;
 
     public Product(){}
 
@@ -35,5 +36,13 @@ public class Product {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSpecification() {
+        return specification;
+    }
+
+    public void setSpecification(String specification) {
+        this.specification = specification;
     }
 }
