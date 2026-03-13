@@ -20,7 +20,7 @@ API queries can be performed in any way, it is recommended to use the CMD consol
 
  🛠️Support for Java 21🛠️
 
-"restapi-0.0.2-SNAPSHOT.jar" file supports Java version 21. The files for the entire project supporting Java 21, on which version 0.0.2 was compiled, are located on the second branch.
+"restapi-0.0.2-SNAPSHOT.jar" file supports Java version 21.
 
 To run the program using the restapi-0.0.2-SNAPSHOT file, you need to:
 
