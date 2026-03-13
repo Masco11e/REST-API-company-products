@@ -6,7 +6,7 @@ The software does not include a frontend interface.
 
 Additionally, a Python script for generating product data has been included in the project. There is no need to run it, as the products data is already included in the project. Company data was generated using the online tool [Mockaroo](https://www.mockaroo.com/).
 
-It is recommended to start the application using the restapi-0.0.1-SNAPSHOT file.
+It is recommended to start the application using the "restapi-0.0.2-SNAPSHOT.jar" file.
 
 Additionally/optionally software can be run in any IDE supporting java, IntelliJ IDEA is recommended. 
 
@@ -18,7 +18,23 @@ API queries can be performed in any way, it is recommended to use the CMD consol
 
 ## 🛠️
 
-To run the program using the restapi-0.0.1-SNAPSHOT file, you need to:
+ 🛠️Support for Java 21🛠️
+
+"restapi-0.0.2-SNAPSHOT.jar" file supports Java version 21. The files for the entire project supporting Java 21, on which version 0.0.2 was compiled, are located on the second branch.
+
+To run the program using the restapi-0.0.2-SNAPSHOT file, you need to:
+
+- Open a terminal in the folder where the file is located.
+- Use the following command: java -jar restapi-0.0.2-SNAPSHOT.jar
+
+<div style="display: flex;">
+  <img src="public/proof_2.jpg" width="300" height="300"/>
+</div>
+
+At this point, the REST API should start working.
+
+
+To run the program using the "restapi-0.0.1-SNAPSHOT.jar" file(Note: this version only supports Java version 25.), you need to:
 
 - Open a terminal in the folder where the file is located.
 - Use the following command: java -jar restapi-0.0.1-SNAPSHOT.jar
